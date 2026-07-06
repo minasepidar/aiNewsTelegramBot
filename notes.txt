@@ -1,0 +1,64 @@
+[Unit]
+Description=AI News Telegram Bot
+
+[Service]
+WorkingDirectory=/home/mina/Desktop/works/aiNewsTelegramBot
+ExecStart=/home/mina/Desktop/works/aiNewsTelegramBot/.venv/bin/python src/main.py
+Restart=always
+
+
+
+[Unit]
+Description=Run AI News Telegram Bot every hour
+
+[Timer]
+OnBootSec=10min
+OnUnitActiveSec=1h
+Persistent=false
+
+[Install]
+WantedBy=timers.target
+
+
+
+
+
+
+
+systemctl --user daemon-reload
+systemctl --user enable --now aiNewsTelegramBot.timer 
+
+
+systemctl --user daemon-reload
+systemctl --user restart aiNewsTelegramBot.timer 
+
+
+[Unit]
+Description=AI News Telegram Bot
+
+[Service]
+Type=oneshot
+WorkingDirectory=/home/mina/Desktop/works/aiNewsTelegramBot
+ExecStart=/home/mina/Desktop/works/aiNewsTelegramBot/.venv/bin/python src/main.py
+
+
+
+
+[Unit]
+Description=Run AI News Telegram Bot every hour
+
+[Timer]
+OnBootSec=10min
+OnUnitActiveSec=1h
+
+[Install]
+WantedBy=timers.target
+
+
+
+
+git config --global user.name "mina"
+git config --global user.email "mina.sepidar85@gmail.com"
+
+
+

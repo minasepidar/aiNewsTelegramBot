@@ -1,0 +1,23 @@
+# Virtual environment (Python packages)
+.venv/
+
+
+
+
+# Python caching
+__pycache__/
+*.py[cod]
+*$py.class
+
+
+
+
+.env
+
+
+
+.notes.txt
+
+
+
+

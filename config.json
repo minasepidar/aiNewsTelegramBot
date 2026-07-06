@@ -1,0 +1,26 @@
+{
+    "model_name": "gemini-3.1-flash-lite",
+    "base_prompt": "I have some news that I want you to summarise it for me in a paragraph, just tell me important points about it. respond in Persian language \n\n",
+    "topics": {
+        "technology": [
+            "https://www.theverge.com/rss/index.xml",
+            "https://techcrunch.com/feed/"
+        ],
+        "coding": [
+            "https://hnrss.org/frontpage",
+            "https://dev.to/feed"
+        ],
+        "AI": [
+            "https://hnrss.org/newest?q=AI",
+            "https://www.technologyreview.com/feed/"
+        ],
+        "web3": [
+            "https://cointelegraph.com/rss",
+            "https://decrypt.co/feed"
+        ],
+        "personal computer": [
+            "https://www.tomshardware.com/feeds/all",
+            "https://videocardz.com/feed"
+        ]
+    }
+}
