@@ -20,7 +20,7 @@ TOPICS = config["topics"]
 
 client = genai.Client(
     api_key=GEMINI_API_KEY,
-    http_options=types.HttpOptions(timeout=60_000)  # ۶۰ ثانیه
+    http_options=types.HttpOptions(timeout=60_000)  # 60 seconds time out
 )
 
 

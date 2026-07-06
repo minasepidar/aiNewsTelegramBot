@@ -6,7 +6,7 @@ This is a Telegram bot for receiving and managing news.
 
 * Python 3.11 or higher
 * A bot token from [@BotFather](https://t.me/BotFather)
-* You can get your ID from [@userinfobot]
+* You can get your ID from [@userinfobot](https://t.me/userinfobot)
 * Open the config.json file and change the AI ​​prompt, topics, and news site links if needed.
 
 
@@ -118,7 +118,7 @@ Of course, I didn't realize that I changed other settings on Windows because it 
 
 ## contribution
 
-We would be happy if you have a suggestion, please submit it as an Issue or Pull Request.
+I would be happy if you have a suggestion, please submit it as an Issue or Pull Request.
 
 
 

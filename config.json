@@ -1,6 +1,6 @@
 {
     "model_name": "gemini-3.1-flash-lite",
-    "base_prompt": "I have some news that I want you to summarise it for me in a paragraph, just tell me important points about it. respond in Persian language \n\n",
+    "base_prompt": "I have some news that I want you to summarise it for me in a paragraph, just tell me important points about it. respond in English language \n\n",
     "topics": {
         "technology": [
             "https://www.theverge.com/rss/index.xml",
